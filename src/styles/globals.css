@@ -3,12 +3,14 @@
 :root {
   --background: #ffffff;
   --border: #0000001A;
+  --border-2: #00000008;
   --bg-button-Gray: #00000005;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-border: var(--border);
+  --color-border-2: var(--border-2);
   --color-bg-button-Gray: var(--bg-button-Gray);
   --font-spaceGrotesk: var(--font-spaceGrotesk);
   --font-IRANYekanXNoEn: var(--font-IRANYekanXNoEn);

@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body
-        className={`${IRANYekanXNoEn.className} ${spaceGrotesk.className} antialiased flex items-center justify-center flex-col gap-8`}
+        className={`${IRANYekanXNoEn.className} ${spaceGrotesk.className} antialiased flex items-center justify-center flex-col`}
       >
         <Header />
         {children}
