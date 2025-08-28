@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import { IRANYekanXNoEn } from "@/utils/fonts";
-import "./globals.css";
+import "@/styles/globals.css";
+import Header from "@/components/layouts/Header";
+import Footer from "@/components/layouts/Footer";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -21,9 +23,11 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body
-        className={`${IRANYekanXNoEn.className} ${spaceGrotesk.className} antialiased`}
+        className={`${IRANYekanXNoEn.className} ${spaceGrotesk.className} antialiased flex items-center justify-center flex-col gap-8`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
