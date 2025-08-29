@@ -1,34 +1,31 @@
-import React from 'react'
+import { Marquee } from "@/components/magicui/marquee";
+
+const items = [
+  "Graphic Designer",
+  "UI UX Designer",
+  "UX Writer",
+  "Networking",
+  "Product Designer",
+  "Digital Marketing",
+  "Programmer",
+  "Product Manager",
+];
 
 function MarqueeText() {
   return (
-        <div className="container py-[30px] flex items-center justify-center border-t-2 border-b-2 border-border">
-            <p className="itemRight item1 text-black font-spaceGrotesk text-[16px] font-medium">
-              Graphic Designer 
-            </p>
-            <p className="itemRight item2 text-black font-spaceGrotesk text-[16px] font-medium">
-              UI UX Designer
-            </p>
-            <p className="itemRight item3 text-black font-spaceGrotesk text-[16px] font-medium">
-              UX Writer
-            </p>
-            <p className="itemRight item4 text-black font-spaceGrotesk text-[16px] font-medium">
-              Networking
-            </p>
-            <p className="itemRight item5 text-black font-spaceGrotesk text-[16px] font-medium">
-              Product Designer
-            </p>
-            <p className="itemRight item6 text-black font-spaceGrotesk text-[16px] font-medium">
-              Digital Marketing
-            </p>
-            <p className="itemRight item7 text-black font-spaceGrotesk text-[16px] font-medium">
-              Programmer
-            </p>
-            <p className="itemRight item8 text-black font-spaceGrotesk text-[16px] font-medium">
-              Product Maneger
-            </p>
-        </div>
-  )
+    <div className="relative mt-[30px] flex w-full flex-col items-center justify-center overflow-hidden py-[30px] border-t-2 border-b-2 border-border">
+      <Marquee className="[--duration:20s] gap-2.5" pauseOnHover={false}>
+        {items.map((item, index) => (
+          <p
+            key={index}
+            className="text-black font-spaceGrotesk text-[16px] font-medium"
+          >
+            {item}
+          </p>
+        ))}
+      </Marquee>
+    </div>
+  );
 }
 
-export default MarqueeText
+export default MarqueeText;
