@@ -142,3 +142,9 @@ body {
 .item6 {animation-delay: -7.5s;}
 .item7 {animation-delay: -3.75s;}
 .item8 {animation-delay: 0s;}
+
+.blure-marquee {
+  background: linear-gradient(272deg, #FFF 1.94%, rgba(255, 255, 255, 0.00) 98.06%);
+  filter: blur(21px);
+  backdrop-filter: blur(0.05000000074505806px);
+}
