@@ -2,6 +2,8 @@
 
 :root {
   --background: #ffffff;
+  --background-blue: #768CFF;
+  --background-gradient-green: linear-gradient(106deg, #52D95F 12.61%, #99E9A1 48.92%, #52D95F 87.39%);
   --border: #0000001A;
   --border-2: #00000008;
   --bg-button-Gray: #00000005;
@@ -9,6 +11,8 @@
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-blue: var(--background-blue);
+  --color-background-gradient-green: var(--background-gradient-green);
   --color-border: var(--border);
   --color-border-2: var(--border-2);
   --color-bg-button-Gray: var(--bg-button-Gray);
@@ -24,4 +28,59 @@
 /* right to left style */
 .rtl {
   direction: rtl !important;
+}
+
+.button {
+  display: flex;
+  height: 22px;
+  padding: 7px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+  margin-top: 10px;
+  border-radius: 7px;
+  border: 1.5px solid rgba(255, 255, 255, 0.20);
+  background: linear-gradient(106deg, #52D95F 12.61%, #99E9A1 48.92%, #52D95F 87.39%);
+}
+
+.BuyTicketButton {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 555px;
+  background: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.BuyTicketButton:hover {
+  box-shadow: 0 32px 27.4px -12px rgba(0, 0, 0, 0.25);
+}
+
+.BuyTicketButton::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(97deg, #000 21.17%, #707070 45%, #000 68.83%);
+  transform: skewX(-20deg);
+  z-index: 1;
+  pointer-events: none;
+  animation: slideGradient 1.5s linear infinite;
+}
+@keyframes slideGradient {
+  0% {
+    left: -150%;
+  }
+  100% {
+    left: 150%;
+  }
 }
