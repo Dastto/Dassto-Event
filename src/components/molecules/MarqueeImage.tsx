@@ -42,10 +42,10 @@ function MarqueeImage() {
             </div>
         </div>
         <Marquee
-  key={isFast ? "fast" : "slow"}
-  className={`${isFast ? "[--duration:10s]" : "[--duration:20s]"} gap-2.5`}
-  pauseOnHover={false}
->
+          key={isFast ? "fast" : "slow"}
+          className={`${isFast ? "[--duration:5s]" : "[--duration:20s]"} gap-2.5`}
+          pauseOnHover={false}
+        >
             {items.map((item, index) => (
                 <ImageMarquee 
                     key={index}

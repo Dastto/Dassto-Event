@@ -1,6 +1,7 @@
 import HeroSection from '@/organisms/HeroSection'
 import MarqueeText from '@/components/molecules/MarqueeText'
 import MarqueeImage from '@/molecules/MarqueeImage'
+import Speakers from '@/organisms/Speakers'
 
 function HomeTemplate() {
   return (
@@ -8,6 +9,7 @@ function HomeTemplate() {
         <HeroSection />
         <MarqueeImage />
         <MarqueeText />
+        <Speakers />
     </div>
   )
 }
