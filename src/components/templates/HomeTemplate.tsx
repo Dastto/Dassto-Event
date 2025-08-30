@@ -3,6 +3,7 @@ import MarqueeText from '@/components/molecules/MarqueeText'
 import MarqueeImage from '@/molecules/MarqueeImage'
 import Speakers from '@/organisms/Speakers'
 import MarqueeCafe from '@/molecules/MarqueeCafe'
+import ProgramTimeline from '@/organisms/ProgramTimeline'
 
 function HomeTemplate() {
   return (
@@ -12,6 +13,7 @@ function HomeTemplate() {
         <MarqueeText />
         <Speakers />
         <MarqueeCafe />
+        <ProgramTimeline />
     </div>
   )
 }

@@ -4,7 +4,7 @@ import BuyTicketButton from '../atom/BuyTicketButton'
 
 function HeroSection() {
   return (
-    <div className='w-full ltr flex items-start justify-start flex-col gap-[30px] py-[134px] px-14'>
+    <div className='w-full ltr flex items-start justify-start flex-col gap-[30px] py-[134px] px-[33px] sm:px-[67px]'>
         <div className='flex items-center justify-start gap-2.5'>
             <div className='bg-background-blue flex items-center justify-center rounded-2xl p-2.5'>
                 <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink">

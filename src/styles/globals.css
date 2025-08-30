@@ -177,6 +177,15 @@
   backdrop-filter: blur(0.05000000074505806px);
 }
 
+/* text-gradient */
+
+.text-gradient {
+  background: linear-gradient(176deg, #000 3%, #FFF 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);

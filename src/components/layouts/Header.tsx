@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='w-full max-w-[640px] flex items-center justify-end gap-5 py-8 px-14 border-b-2 border-t-2 sm:border-x-2 border-border'>
+    <div className='w-full max-w-[640px] flex items-center justify-end gap-5 py-8 px-[33px] sm:px-[67px] border-b-2 border-t-2 sm:border-x-2 border-border'>
         <p className='font-spaceGrotesk text-[16px] font-medium text-black'>
             Event 2025
         </p>

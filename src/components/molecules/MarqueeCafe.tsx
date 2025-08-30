@@ -27,7 +27,7 @@ function MarqueeCafe() {
   };
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-        <p className="w-full py-[35px] text-black font-spaceGrotesk text-center text-[40px] font-bold">
+        <p className="text-gradient w-full py-[35px] text-black font-spaceGrotesk text-center text-[40px] font-bold">
             Workshops. Talks. Networking. Design. Product. Community.
         </p>
         <div className='blure-marquee flex items-center justify-center h-[341px] w-[162px] absolute z-30 bottom-0 -right-10'>

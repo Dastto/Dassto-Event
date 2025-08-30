@@ -10,11 +10,11 @@ import Image from 'next/image';
 function Speakers() {
   return (
     <div className='w-full flex items-start justify-start flex-col gap-[30px] py-10'>
-        <p className='font-IRANYekanXNoEn text-[20px] text-black font-[700] px-14'>
+        <p className='font-IRANYekanXNoEn text-[20px] text-black font-[700] px-[33px] sm:px-[67px]'>
             سخرانان برنامه
         </p>
         <div className='w-full flex items-center justify-center flex-col'>
-            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-14'>
+            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-[33px] sm:px-[67px]'>
                 <div className='px-[21px] ltr flex items-center justify-between relative z-20 w-full py-[18px] border-2 border-dashed border-border'>
                     <div className='flex items-center justify-start gap-2.5'>
                         <Image 
@@ -44,7 +44,7 @@ function Speakers() {
                     </div>
                 </div>
             </div>
-            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-14'>
+            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-[33px] sm:px-[67px]'>
                 <div className='px-[21px] ltr flex items-center justify-between relative z-20 w-full py-[18px] border-2 border-t-0 border-dashed border-border'>
                     <div className='flex items-center justify-start gap-2.5'>
                         <Image 
@@ -74,7 +74,7 @@ function Speakers() {
                     </div>
                 </div>
             </div>
-            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-14'>
+            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-[33px] sm:px-[67px]'>
                 <div className='px-[21px] ltr flex items-center justify-between relative z-20 w-full py-[18px] border-2 border-t-0 border-dashed border-border'>
                     <div className='flex items-center justify-start gap-2.5'>
                         <Image 
@@ -104,7 +104,7 @@ function Speakers() {
                     </div>
                 </div>
             </div>
-            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-14'>
+            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-[33px] sm:px-[67px]'>
                 <div className='px-[21px] ltr flex items-center justify-between relative z-20 w-full py-[18px] border-2 border-t-0 border-dashed border-border'>
                     <div className='flex items-center justify-start gap-2.5'>
                         <Image 
@@ -134,7 +134,7 @@ function Speakers() {
                     </div>
                 </div>
             </div>
-            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-14'>
+            <div className='w-full flex items-center justify-center flex-col border-t-2 border-b-2 border-border px-[33px] sm:px-[67px]'>
                 <div className='px-[21px] ltr flex items-center justify-between relative z-20 w-full py-[18px] border-2 border-t-0 border-dashed border-border'>
                     <div className='flex items-center justify-start gap-2.5'>
                         <Image 

@@ -5,7 +5,7 @@ import DasttoTextFooter from '@/public/images/Dastto-Footer-Text.svg'
 
 function Footer() {
   return (
-    <div className='w-full ltr max-w-[640px] flex items-start justify-start flex-col gap-17 py-10 px-14 border-b-2 border-t-2 sm:border-x-2 border-border'>
+    <div className='w-full ltr max-w-[640px] flex items-start justify-start flex-col gap-17 py-10 px-[33px] sm:px-[67px] border-b-2 border-t-2 sm:border-x-2 border-border'>
         <div className='w-full flex items-start justify-start flex-col gap-[30px]'>
             <Link href={"#"} className='flex items-center justify-start gap-0.5 underline'>
                 <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
