@@ -2,20 +2,19 @@
 
 import { Marquee } from "@/components/magicui/marquee";
 import cafe from "@/public/images/cafe.png";
+import cafe2 from "@/public/images/cafe2.jpg";
+import cafe3 from "@/public/images/cafe3.jpg";
+import cafe4 from "@/public/images/cafe4.jpg";
 import Image from "next/image";
 import ImageMarquee from "../atom/ImageMarquee";
 import MarqueeSvgSpeed from "@/public/images/marquee-svg-speed.png";
 import { useState } from "react";
 
 const items = [
-  { img: cafe, rotation: 25 },
-  { img: cafe, rotation: -15 },
-  { img: cafe, rotation: 8 },
-  { img: cafe, rotation: -9 },
-  { img: cafe, rotation: 12 },
-  { img: cafe, rotation: 18 },
-  { img: cafe, rotation: 26 },
-  { img: cafe, rotation: -18 },
+  { img: cafe, rotation: 0 },
+  { img: cafe2, rotation: 0 },
+  { img: cafe3, rotation: 0 },
+  { img: cafe4, rotation: 0 },
 ];
 
 function MarqueeCafe() {
