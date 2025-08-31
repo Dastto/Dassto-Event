@@ -4,6 +4,7 @@ import MarqueeImage from '@/molecules/MarqueeImage'
 import Speakers from '@/organisms/Speakers'
 import MarqueeCafe from '@/molecules/MarqueeCafe'
 import ProgramTimeline from '@/organisms/ProgramTimeline'
+import Loaction from '@/molecules/Loaction'
 
 function HomeTemplate() {
   return (
@@ -14,6 +15,7 @@ function HomeTemplate() {
         <Speakers />
         <MarqueeCafe />
         <ProgramTimeline />
+        <Loaction />
     </div>
   )
 }
