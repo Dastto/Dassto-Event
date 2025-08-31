@@ -6,6 +6,7 @@ import MarqueeCafe from '@/molecules/MarqueeCafe'
 import ProgramTimeline from '@/organisms/ProgramTimeline'
 import Loaction from '@/molecules/Loaction'
 import Team from '@/molecules/Team'
+import Sponsors from '@/organisms/Sponsors'
 
 function HomeTemplate() {
   return (
@@ -16,6 +17,7 @@ function HomeTemplate() {
         <Speakers />
         <MarqueeCafe />
         <ProgramTimeline />
+        <Sponsors />
         <Loaction />
         <Team />
     </div>
