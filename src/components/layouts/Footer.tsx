@@ -1,9 +1,18 @@
+"use client";
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import DasttoTextFooter from '@/public/images/Dastto-Footer-Text.svg'
+import { usePathname } from 'next/navigation'
 
 function Footer() {
+
+    const pathname = usePathname()
+    
+    if (pathname === '/register') {
+        return null
+    }
   return (
     <div className='w-full ltr max-w-[640px] flex items-start justify-start flex-col gap-17 py-10 px-[33px] sm:px-[67px] border-b-2 border-t-2 sm:border-x-2 border-border'>
         <div className='w-full flex items-start justify-start flex-col gap-[30px]'>

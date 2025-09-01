@@ -66,7 +66,7 @@ function ProgramTimeline() {
       },
       {
         root: null,
-        threshold: 1,
+        threshold: 0.1,
       }
     );
 

@@ -1,6 +1,14 @@
+'use client'
+
 import React from 'react'
+import { usePathname } from 'next/navigation'
 
 function Header() {
+    const pathname = usePathname()
+
+    if (pathname === '/register') {
+        return null
+    }
   return (
     <div className='w-full max-w-[640px] flex items-center justify-end gap-5 py-8 px-[33px] sm:px-[67px] border-b-2 border-t-2 sm:border-x-2 border-border'>
         <p className='font-spaceGrotesk text-[16px] font-medium text-black'>
