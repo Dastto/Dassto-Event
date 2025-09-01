@@ -52,7 +52,7 @@ function Speakers() {
                             width={51}
                             height={51}
                             src={arshiyaAminJavahery}
-                            alt='hesamMousavi'
+                            alt='arshiyaAminJavahery'
                         />
                         <div className='flex items-start justify-center flex-col gap-[5px]'>
                             <p className='text-black font-spaceGrotesk text-[17px] font-medium'>

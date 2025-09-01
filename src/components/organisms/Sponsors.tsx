@@ -13,7 +13,7 @@ function Sponsors() {
             حامیان برنامه
         </p>
         <div className='w-full ltr flex flex-wrap border-t-2 border-b-2 border-border px-[33px] sm:px-[67px]'>
-            <div className='w-1/2 px-[43px] py-[48px] flex items-center justify-center border-2 border-dashed border-border'>
+            <div className='w-1/2 px-[14px] sm:px-[43px] py-[48px] flex items-center justify-center border-2 border-dashed border-border'>
                 <Image 
                     className='w-[124px] h-[18px]'
                     width={124}
@@ -22,7 +22,7 @@ function Sponsors() {
                     alt='Zoomit'
                 />
             </div>
-            <div className='w-1/2 px-[43px] py-[48px] flex items-center justify-center border-2 border-border'>
+            <div className='w-1/2 px-[14px] sm:px-[43px] py-[48px] flex items-center justify-center border-2 border-border'>
                 <Image 
                     className='w-[111px] h-[36px]'
                     width={111}
@@ -31,7 +31,7 @@ function Sponsors() {
                     alt='Geektori'
                 />
             </div>
-            <div className='w-1/2 px-[43px] py-[48px] flex items-center justify-center border-2 border-border'>
+            <div className='w-1/2 px-[14px] sm:px-[43px] py-[48px] flex items-center justify-center border-2 border-border'>
                 <Image 
                     className='w-[114px] h-[43px]'
                     width={114}
@@ -40,7 +40,7 @@ function Sponsors() {
                     alt='FontIran'
                 />
             </div>
-            <div className='w-1/2 px-[43px] py-[48px] flex items-center justify-center border-2 border-dashed border-border'>
+            <div className='w-1/2 px-[14px] sm:px-[43px] py-[48px] flex items-center justify-center border-2 border-dashed border-border'>
                 <Image 
                     className='w-[134px] h-[28px]'
                     width={134}
@@ -49,7 +49,7 @@ function Sponsors() {
                     alt='Negarande'
                 />
             </div>
-            <div className='flex-[0.7] grid-cols-8 px-[43px] py-[48px] flex items-center justify-center border-2 border-dashed border-border'>
+            <div className='flex-[0.7] grid-cols-8 px-[14px] sm:px-[43px] py-[48px] flex items-center justify-center border-2 border-dashed border-border'>
                 <Image 
                     className='w-[145px] h-[34px]'
                     width={145}
@@ -58,7 +58,7 @@ function Sponsors() {
                     alt='DigiNext'
                 />
             </div>
-            <div className='flex-[0.3] relative px-[43px] py-[48px] flex items-center justify-center border-2 border-border'>
+            <div className='flex-[0.3] relative px-[14px] sm:px-[43px] py-[48px] flex items-center justify-center border-2 border-border'>
                 <div className='px-2.5 py-[5px] rounded-full border-2 border-border flex items-center justify-center'>
                     <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2 9.98291L16 9.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>

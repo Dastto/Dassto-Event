@@ -7,6 +7,7 @@ import ProgramTimeline from '@/organisms/ProgramTimeline'
 import Loaction from '@/molecules/Loaction'
 import Team from '@/molecules/Team'
 import Sponsors from '@/organisms/Sponsors'
+import TicketSection from '@/molecules/TicketSection'
 
 function HomeTemplate() {
   return (
@@ -17,6 +18,7 @@ function HomeTemplate() {
         <Speakers />
         <MarqueeCafe />
         <ProgramTimeline />
+        <TicketSection />
         <Sponsors />
         <Loaction />
         <Team />
