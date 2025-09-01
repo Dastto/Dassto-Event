@@ -1,8 +1,10 @@
-import React from 'react'
+"use client";
+
+import React, { useEffect } from 'react'
 import hesamMousavi from "@/public/images/hesam-mousavi.png";
 import arshiyaAminJavahery from "@/public/images/arshiya-amin-javahery.png";
 import hesamKeramati from "@/public/images/hesam-keramati.png";
-import sabaFeizy from "@/public/images/saba-feizy.png";
+import TimeLineGradient from "@/public/images/TimeLineGradient.png";
 import asalBakraei from "@/public/images/asal-bakraei.png";
 import Atoosa from "@/public/images/Atoosa.png";
 import Arshya from "@/public/images/Arshya.png";
@@ -14,13 +16,73 @@ import TimeLineSvg5 from "@/public/images/TimeLineSvg5.svg";
 
 import Image from 'next/image';
 
+import { useRef } from "react";
+import confetti from "canvas-confetti";
+
 function ProgramTimeline() {
+
+  const ref = useRef<HTMLDivElement | null>(null);
+
+    const handleClick = () => {
+    const end = Date.now() + 3 * 1000; // 3 seconds
+    const colors = ["#a786ff", "#fd8bbc", "#eca184", "#f8deb1"];
+ 
+    const frame = () => {
+      if (Date.now() > end) return;
+ 
+      confetti({
+        particleCount: 2,
+        angle: 60,
+        spread: 55,
+        startVelocity: 60,
+        origin: { x: 0, y: 0.5 },
+        colors: colors,
+      });
+      confetti({
+        particleCount: 2,
+        angle: 120,
+        spread: 55,
+        startVelocity: 60,
+        origin: { x: 1, y: 0.5 },
+        colors: colors,
+      });
+ 
+      requestAnimationFrame(frame);
+    };
+ 
+    frame();
+  };
+
+  useEffect(() => {
+    if (!ref.current) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            handleClick();
+          }
+        });
+      },
+      {
+        root: null,
+        threshold: 1,
+      }
+    );
+
+    observer.observe(ref.current);
+
+    return () => {
+      if (ref.current) observer.unobserve(ref.current);
+    };
+  }, []);
+
   return (
-    <div className='w-full flex items-start justify-start flex-col gap-[30px] py-10'>
+    <div className='w-full relative flex items-start justify-start flex-col gap-[30px] py-10'>
         <p className='font-IRANYekanXNoEn text-[20px] text-black font-[700] px-[33px] sm:px-[67px]'>
             تایم لاین برنامه
         </p>
-        <div className='w-full ltr flex items-start justify-start flex-col gap-[5px] px-[33px] sm:px-[67px]'>
+        <div className='w-full relative ltr flex items-start justify-start flex-col gap-[5px] px-[33px] sm:px-[67px]'>
             <div className='w-full flex items-start justify-start gap-4'>
               <div className='h-auto relative flex items-start justify-start flex-col'>
                 <div className='flex items-center justify-start'>
@@ -376,7 +438,17 @@ function ProgramTimeline() {
               </div>
             </div>
         </div>
-        
+        {/* gradient */}
+        <div ref={ref} className='w-full relative ltr h-[217px] flex items-center justify-center -mb-[100px]'>
+          <Image 
+            className='w-full h-full absolute right-0 bottom-[100px] rounded-b-[40px] overflow-hidden'
+            width={51}
+            height={51}
+            src={TimeLineGradient}
+            alt='TimeLineGradient'
+          />
+        </div>
+
     </div>
   )
 }
