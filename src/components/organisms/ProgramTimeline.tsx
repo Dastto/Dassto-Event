@@ -120,7 +120,7 @@ function ProgramTimeline() {
                   <span className='text-[#00000080] font-spaceGrotesk text-[14px] font-medium'>
                     #typography
                   </span>
-                  <span className='text-[#00000080] font-IRANYekanXNoEn text-[14px] font-semibold'>
+                  <span className='text-[#00000080] whitespace-nowrap font-IRANYekanXNoEn text-[14px] font-semibold'>
                     سینک شدن و سیستم تایپو گرافی
                   </span>
                 </div>

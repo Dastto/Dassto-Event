@@ -29,7 +29,7 @@ function MarqueeCafe() {
         <p className="text-gradient w-full py-[35px] text-black font-spaceGrotesk text-center text-[40px] font-bold">
             Workshops. Talks. Networking. Design. Product. Community.
         </p>
-        <div className='blure-marquee flex items-center justify-center h-[341px] w-[162px] absolute z-30 bottom-0 -right-10'>
+        {/* <div className='blure-marquee flex items-center justify-center h-[341px] w-[162px] absolute z-30 bottom-0 -right-10'>
         </div>
         <div className='flex items-center justify-center h-[341px] w-[162px] absolute z-40 right-0 bottom-0'>
             <div onClick={toggleSpeed} className='bg-white cursor-pointer absolute z-50 p-4 rounded-full flex items-center justify-center border-2 border-border'>
@@ -41,7 +41,7 @@ function MarqueeCafe() {
                     src={MarqueeSvgSpeed}
                 />
             </div>
-        </div>
+        </div> */}
         <Marquee
           key={isFast ? "fast" : "slow"}
           className={`${isFast ? "[--duration:5s]" : "[--duration:20s]"} gap-2.5`}
