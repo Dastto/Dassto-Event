@@ -25,10 +25,10 @@ function TicketSection() {
                     <div className='w-full p-[30px] flex items-center justify-center flex-col gap-5'>
                         <div className='w-full flex items-center justify-between'>
                             <div className='w-fit flex items-center justify-center flex-col gap-[5px]'>
-                                <span className='text-[#00000066] font-spaceGrotesk text-[17px] font-medium'>
+                                <span className='text-[#00000066] font-spaceGrotesk text-[12px] sm:text-[17px] font-medium'>
                                     18:30 - 21:30
                                 </span>
-                                <p className='text-black font-spaceGrotesk text-[20px] font-medium'>
+                                <p className='text-black font-spaceGrotesk text-[15px] sm:text-[20px] font-medium'>
                                     What’s Next
                                 </p>
                             </div>
@@ -37,7 +37,7 @@ function TicketSection() {
                             </svg>
                             <div className='w-fit flex items-center justify-center gap-[7px]'>
                                 <Image 
-                                    className='w-[40px] h-[27px]'
+                                    className='w-[35px] h-[22px] sm:w-[40px] sm:h-[27px]'
                                     width={40}
                                     height={27}
                                     src={Pizza}
@@ -50,7 +50,7 @@ function TicketSection() {
                                 </svg>
                                 {/* + */}
                                 <Image 
-                                    className='w-[28px] h-[28px]'
+                                    className='w-[23px] h-[23px] sm:w-[28px] sm:h-[28px]'
                                     width={28}
                                     height={28}
                                     src={Food}
@@ -63,7 +63,7 @@ function TicketSection() {
                                 </svg>
                                 {/* + */}
                                 <Image 
-                                    className='w-[33px] h-[27px]'
+                                    className='w-[28px] h-[22px] sm:w-[33px] sm:h-[27px]'
                                     width={33}
                                     height={27}
                                     src={Mug}
@@ -76,7 +76,7 @@ function TicketSection() {
                                 </svg>
                                 {/* + */}
                                 <Image 
-                                    className='w-[32px] h-[22px]'
+                                    className='w-[27px] h-[17px] sm:w-[32px] sm:h-[22px]'
                                     width={31}
                                     height={22}
                                     src={Cookie}
@@ -86,41 +86,41 @@ function TicketSection() {
                         </div>
                         <div className='w-full flex items-center justify-start'>
                             <Image 
-                                className='w-[51px] h-[51px] rounded-full border-2 border-border'
+                                className='w-[45px] h-[45px] sm:w-[51px] sm:h-[51px] rounded-full border-2 border-border'
                                 width={51}
                                 height={51}
                                 src={hesamMousavi}
                                 alt='hesamMousavi'
                             />
                             <Image 
-                                className='w-[51px] h-[51px] rounded-full border-2 border-border'
+                                className='w-[45px] h-[45px] sm:w-[51px] sm:h-[51px] rounded-full border-2 border-border'
                                 width={51}
                                 height={51}
                                 src={arshiyaAminJavahery}
                                 alt='arshiyaAminJavahery'
                             />
                             <Image 
-                                className='w-[51px] h-[51px] rounded-full border-2 border-border'
+                                className='w-[45px] h-[45px] sm:w-[51px] sm:h-[51px] rounded-full border-2 border-border'
                                 width={51}
                                 height={51}
                                 src={hesamKeramati}
                                 alt='hesamKeramati'
                             />
                             <Image 
-                                className='w-[51px] h-[51px] rounded-full border-2 border-border'
+                                className='w-[45px] h-[45px] sm:w-[51px] sm:h-[51px] rounded-full border-2 border-border'
                                 width={51}
                                 height={51}
                                 src={sabaFeizy}
                                 alt='sabaFeizy'
                             />
                             <Image 
-                                className='w-[51px] h-[51px] rounded-full border-2 border-border'
+                                className='w-[45px] h-[45px] sm:w-[51px] sm:h-[51px] rounded-full border-2 border-border'
                                 width={51}
                                 height={51}
                                 src={asalBakraei}
                                 alt='asalBakraei'
                             />
-                            <div className='flex items-center justify-center py-2.5 px-[25px] rounded-[55px] border-2 border-border'>
+                            <div className='flex items-center justify-center py-2.5 px-[18px] sm:px-[25px] rounded-[55px] border-2 border-border'>
                                 <Image 
                                     className='w-[25px] h-[20px]'
                                     width={25}
@@ -134,9 +134,9 @@ function TicketSection() {
                     <div className='w-full border-b-2 border-dashed border-border'></div>
                     <div className='w-full p-[30px] flex items-center justify-between'>
                         <div className='flex flex-row-reverse items-center justify-center gap-0.5'>
-                            <p className='text-[40px] text-black font-IRANYekanXNoEn font-[700]'>۷۲۰</p>
+                            <p className='text-[30px] sm:text-[40px] text-black font-IRANYekanXNoEn font-[700]'>۷۲۰</p>
                             <Image 
-                                className='w-[32px] h-[36px]'
+                                className='w-[22px] h-[26px] sm:w-[32px] sm:h-[36px]'
                                 width={32}
                                 height={36}
                                 src={Towman}
@@ -145,10 +145,10 @@ function TicketSection() {
                         </div>
                         <div className='w-fit flex items-center justify-center gap-3'>
                             <div className='flex items-center justify-center flex-col gap-[5px]'>
-                                <span className='text-[#00000080] text-[16px] font-IRANYekanXNoEn font-[700]'>
+                                <span className='text-[#00000080] text-[12px] sm:text-[16px] font-IRANYekanXNoEn font-[700]'>
                                     ظرفیت
                                 </span>
-                                <span className='text-[#00000080] text-[16px] font-IRANYekanXNoEn font-[700]'>
+                                <span className='text-[#00000080] text-[12px] sm:text-[16px] font-IRANYekanXNoEn font-[700]'>
                                     ۵۰ نـفر
                                 </span>
                             </div>
