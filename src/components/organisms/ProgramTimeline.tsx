@@ -225,12 +225,17 @@ function ProgramTimeline() {
                 </div>
               </div>
             </div>
-            {/* + */}
-            <svg className='ml-[18px]' width="15" height="15" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 9.98291L16 9.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
-              <path d="M9 16.9829L9 2.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
-            </svg>
-            {/* + */}
+            <div className='w-full flex items-center justify-start gap-4'>
+              {/* + */}
+              <svg className='ml-[18px]' width="15" height="15" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 9.98291L16 9.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
+                <path d="M9 16.9829L9 2.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
+              </svg>
+              {/* + */}
+              <svg width="375" height="4" viewBox="0 0 375 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" d="M2 2.32764H373" stroke="black" strokeOpacity="0.2" strokeWidth="3" strokeLinecap="round" strokeDasharray="10 10"/>
+              </svg>
+            </div>
             <div className='w-full flex items-start justify-start gap-4'>
               <div className='w-[51px] h-auto relative flex items-center justify-center flex-col'>
                 <div className='flex items-center justify-center p-[5px] bg-black rounded-full absolute top-6 right-0'>
@@ -296,12 +301,17 @@ function ProgramTimeline() {
                 </div>
               </div>
             </div>
-            {/* + */}
-            <svg className='ml-[18px]' width="15" height="15" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 9.98291L16 9.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
-              <path d="M9 16.9829L9 2.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
-            </svg>
-            {/* + */}
+            <div className='w-full flex items-center justify-start gap-4'>
+              {/* + */}
+              <svg className='ml-[18px]' width="15" height="15" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 9.98291L16 9.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
+                <path d="M9 16.9829L9 2.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
+              </svg>
+              {/* + */}
+              <svg width="375" height="4" viewBox="0 0 375 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" d="M2 2.32764H373" stroke="black" strokeOpacity="0.2" strokeWidth="3" strokeLinecap="round" strokeDasharray="10 10"/>
+              </svg>
+            </div>
             <div className='w-full flex items-start justify-start gap-4'>
               <div className='w-[51px] h-auto relative flex items-center justify-center flex-col'>
                 <div className='flex items-center justify-center p-[5px] bg-black rounded-full absolute top-6 right-0'>
@@ -404,12 +414,17 @@ function ProgramTimeline() {
                 </div>
               </div>
             </div>
-            {/* + */}
-            <svg className='ml-[18px]' width="15" height="15" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 9.98291L16 9.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
-              <path d="M9 16.9829L9 2.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
-            </svg>
-            {/* + */}
+            <div className='w-full flex items-center justify-start gap-4'>
+              {/* + */}
+              <svg className='ml-[18px]' width="15" height="15" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 9.98291L16 9.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
+                <path d="M9 16.9829L9 2.98291" stroke="black" strokeWidth="3" strokeLinecap="round"/>
+              </svg>
+              {/* + */}
+              <svg width="375" height="4" viewBox="0 0 375 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" d="M2 2.32764H373" stroke="black" strokeOpacity="0.2" strokeWidth="3" strokeLinecap="round" strokeDasharray="10 10"/>
+              </svg>
+            </div>
             <div className='w-full flex items-start justify-start gap-4'>
               <div className='w-[51px] h-auto relative flex items-center justify-center flex-col'>
                 <div className='flex items-center justify-center p-[5px] bg-black rounded-full absolute top-6 right-0'>
