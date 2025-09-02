@@ -102,7 +102,7 @@ function Team() {
                 </span>
             </li>
         </ul>
-        <div className='w-full relative my-10 border-2 border-border rounded-[55px] flex items-center justify-center p-2.5'>
+        <div className='w-full relative my-10 border-2 border-border rounded-full flex items-center justify-center p-2.5'>
             <div className='w-full flex items-center justify-between bg-bg-button-Gray rounded-[55px] p-[22px]'>
                 <p className='text-black font-spaceGrotesk text-[30px] sm:text-[40px] font-normal'>
                     {textToCopy}
@@ -116,7 +116,7 @@ function Team() {
             </div>
             {copied && (
                 <div
-                    className={`absolute bottom-[-30px] bg-black text-white font-IRANYekanXNoEn font-medium text-[16px] px-4 py-2 rounded-full
+                    className={`absolute bottom-[-30px] bg-[#52D95F] text-white font-IRANYekanXNoEn font-medium text-[16px] px-4 py-2 rounded-full
                     transition-all duration-300 ease-in-out
                     opacity-100 translate-y-0
                     `}

@@ -65,7 +65,7 @@ function HeroRegister() {
                 </p>
             </div>
         </div>
-        <p className='text-black text-[40px] font-[700] font-spaceGrotesk mt-2.5'>
+        <p className='text-black text-[40px] font-bold font-spaceGrotesk mt-2.5'>
             Save Your Spot, Be Part of the Story.
         </p>
     </div>
