@@ -1,13 +1,13 @@
 "use client";
 
-import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import BuyTicketButton from '../atom/BuyTicketButton'
+import Image from 'next/image';
+import Link from 'next/link'
+
 import logoDasttoEventBox1 from "@/public/images/logo-dastto-event-box-1.svg";
 import logoDasttoEventBox2 from "@/public/images/logo-dastto-event-box-2.svg";
 import logoDasttoEventBox3 from "@/public/images/logo-dastto-event-box-3.svg";
 import logoDasttoEventBox4 from "@/public/images/logo-dastto-event-box-4.svg";
-import Image from 'next/image';
 
 
 const logos = [

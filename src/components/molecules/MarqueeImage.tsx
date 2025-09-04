@@ -1,11 +1,11 @@
 "use client";
 
-import { Marquee } from "@/components/magicui/marquee";
-import DasttoImg from "@/public/images/MarqueeImage.png";
-import Image from "next/image";
-import ImageMarquee from "../atom/ImageMarquee";
-import MarqueeSvgSpeed from "@/public/images/marquee-svg-speed.png";
 import { useState } from "react";
+
+import { Marquee } from "@/components/magicui/marquee";
+import ImageMarquee from "../atom/ImageMarquee";
+
+import DasttoImg from "@/public/images/MarqueeImage.png";
 
 const items = [
   { img: DasttoImg, rotation: 25 },
