@@ -1,6 +1,10 @@
 "use client";
 
+import Image from 'next/image';
 import React, { useEffect } from 'react'
+import { useRef } from "react";
+import confetti from "canvas-confetti";
+
 import hesamMousavi from "@/public/images/hesam-mousavi.png";
 import arshiyaAminJavahery from "@/public/images/arshiya-amin-javahery.png";
 import hesamKeramati from "@/public/images/hesam-keramati.png";
@@ -13,11 +17,6 @@ import TimeLineSvg2 from "@/public/images/TimeLineSvg2.svg";
 import TimeLineSvg3 from "@/public/images/TimeLineSvg3.svg";
 import TimeLineSvg4 from "@/public/images/TimeLineSvg4.svg";
 import TimeLineSvg5 from "@/public/images/TimeLineSvg5.svg";
-
-import Image from 'next/image';
-
-import { useRef } from "react";
-import confetti from "canvas-confetti";
 
 function ProgramTimeline() {
 
