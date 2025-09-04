@@ -31,6 +31,14 @@ function Team() {
             </li>
             <li className='w-full flex items-center justify-between border-b-2 border-border border-dashed pb-3'>
                 <p className='text-black font-spaceGrotesk text-[16px] sm:text-[20px] font-medium'>
+                    Mohamadreza NasrollahZade
+                </p>
+                <span className='text-[#00000080] font-spaceGrotesk text-[13px] sm:text-[17px] font-medium'>
+                    Programmer
+                </span>
+            </li>
+            <li className='w-full flex items-center justify-between border-b-2 border-border border-dashed pb-3'>
+                <p className='text-black font-spaceGrotesk text-[16px] sm:text-[20px] font-medium'>
                     Mehdi Khodadad
                 </p>
                 <span className='text-[#00000080] font-spaceGrotesk text-[13px] sm:text-[17px] font-medium'>
